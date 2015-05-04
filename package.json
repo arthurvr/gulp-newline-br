@@ -1,0 +1,38 @@
+{
+  "name": "gulp-newline-br",
+  "version": "0.0.0",
+  "description": "Gulp plugin to replace newlines with html `<br>` tags",
+  "license": "MIT",
+  "repository": "arthurvr/gulp-newline-br",
+  "author": {
+    "name": "Arthur Verschaeve",
+    "email": "contact@arthurverschaeve.be",
+    "url": "https://github.com/arthurvr"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "newline",
+    "newline-br",
+    "br",
+    "html",
+    "break",
+    "tag"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.1",
+    "newline-br": "^1.0.0",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
