@@ -1,7 +1,7 @@
 {
   "name": "gulp-newline-br",
   "version": "1.0.0",
-  "description": "Gulp plugin to replace newlines with html `<br>` tags",
+  "description": "Gulp plugin to prepend newlines with html `<br>` tags",
   "license": "MIT",
   "repository": "arthurvr/gulp-newline-br",
   "author": {

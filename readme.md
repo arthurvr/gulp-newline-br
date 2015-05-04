@@ -1,6 +1,6 @@
 # gulp-newline-br [![Build Status](https://travis-ci.org/arthurvr/gulp-newline-br.svg?branch=master)](https://travis-ci.org/arthurvr/gulp-newline-br)
 
-> Gulp plugin to replace newlines with html `<br>` tags using [newline-br](http://github.com/sindresorhus/newline-br)
+> Gulp plugin to prepend newlines with html `<br>` tags using [newline-br](http://github.com/sindresorhus/newline-br)
 
 
 ## Install
