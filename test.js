@@ -1,4 +1,5 @@
 'use strict';
+var path = require('path');
 var test = require('ava');
 var gutil = require('gulp-util');
 var newlineBr = require('./');
@@ -13,7 +14,7 @@ test(function (t) {
 
 	stream.write(new gutil.File({
 		base: __dirname,
-		path: __dirname + '/file.ext',
+		path: path.join(__dirname, '/file.ext'),
 		contents: new Buffer('\n\n')
 	}));
 
