@@ -9,7 +9,8 @@ test(function (t) {
 	var stream = newlineBr();
 
 	stream.on('data', function (file) {
-		t.assert(file.contents.toString() === '<br>\n<br>\n');
+		t.is(file.contents.toString(), '<br>\n<br>\n');
+		t.end();
 	});
 
 	stream.write(new gutil.File({
