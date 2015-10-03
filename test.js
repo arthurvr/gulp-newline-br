@@ -1,14 +1,14 @@
-'use strict';
-var path = require('path');
-var test = require('ava');
-var gutil = require('gulp-util');
-var newlineBr = require('./');
+import path from 'path';
+import test from 'ava';
+import gutil from 'gulp-util';
+import newlineBr from './';
 
-test(function (t) {
+test(t => {
 	t.plan(1);
-	var stream = newlineBr();
 
-	stream.on('data', function (file) {
+	const stream = newlineBr();
+
+	stream.on('data', file => {
 		t.is(file.contents.toString(), '<br>\n<br>\n');
 		t.end();
 	});
