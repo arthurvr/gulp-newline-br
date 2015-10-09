@@ -13,10 +13,10 @@ $ npm install --save-dev gulp-newline-br
 ## Usage
 
 ```js
-var gulp = require('gulp');
-var newlineBr = require('gulp-newline-br');
+const gulp = require('gulp');
+const newlineBr = require('gulp-newline-br');
 
-gulp.task('default', function () {
+gulp.task('default', () => {
 	return gulp.src('src/file.ext')
 		.pipe(newlineBr())
 		.pipe(gulp.dest('dist'));
